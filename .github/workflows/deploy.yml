@@ -24,5 +24,5 @@ jobs:
       - name: Deploy Resource
         run: |
           az group create \
-            --name devsecops-demo-rg \
+            --name test-demo-rg \
             --location eastus
